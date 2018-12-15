@@ -4,18 +4,18 @@
     "PORT": "3002"
   },
   "NODE": {
-    "HOST": "https://bp.cryptolions.io",
-    "PORT": "443",
+    "HOST": "http://ap.testnet.bos.blockgo.pro",
+    "PORT": "80",
     "ALLOWABLE_MAX_PING": 150 // in ms. When ping is greater than this value, the node will be changed
   },
   "RESERVE_NODES": [
     {
-      "HOST": "http://api.eossweden.se",
+      "HOST": "http://ap.testnet.bos.blockgo.pro",
       "PORT": "80"
     }
   ],
   "NODE_WITH_HISTORY": {
-    "HOST": "http://history.cryptolions.io",
+    "HOST": "http://ap.testnet.bos.blockgo.pro",
     "PORT": "80"
   },
   "MONGODB": {
